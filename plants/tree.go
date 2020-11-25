@@ -5,6 +5,7 @@ import "fmt"
 type Tree struct {
 	Name string
 	Height int
+	Width int
 }
 
 func (t *Tree) String() string {
