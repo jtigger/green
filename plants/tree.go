@@ -13,6 +13,6 @@ func (t *Tree) String() string {
 }
 
 func NewTree(name string) Tree {
-	return Tree{Name: name, Height: 12}
+	return Tree{Name: name, Height: 12, Width: 12}
 }
 
