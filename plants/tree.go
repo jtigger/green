@@ -4,7 +4,7 @@ type Tree struct {
 	Name string
 }
 
-func NewTree() Tree {
-	return Tree{}
+func NewTree(name string) Tree {
+	return Tree{Name: name}
 }
 
