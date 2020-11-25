@@ -6,6 +6,6 @@ type Tree struct {
 }
 
 func NewTree(name string) Tree {
-	return Tree{Name: name}
+	return Tree{Name: name, Height: 12}
 }
 
